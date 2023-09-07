@@ -8,7 +8,7 @@ This is the Code Institute student template for Codeanywhere. We have preinstall
 
 You can safely delete the Codeanywhere Template Instructions section of this README.md file,  and modify the remaining paragraphs for your own project. Please do read the Codeanywhere Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use. 
 
-## How to use this repo
+## How to use this repo     
 
 1. Use this template to create your GitHub project repo
 
