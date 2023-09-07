@@ -11,3 +11,5 @@ kaggle.json
 inputs/cherry_dataset/cherry-leaves/test
 inputs/cherry_dataset/cherry-leaves/train
 *.ipynb
+
+/mildew-detection-in-cherry-leaves/README.md

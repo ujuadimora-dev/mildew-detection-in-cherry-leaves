@@ -19,15 +19,15 @@ def page_leaves_visualizer_body():
     if st.checkbox("Difference between average and variability image"):
       
       avg_infected = plt.imread(f"outputs/{version}/avg_var_powdery_mildew.png")
-      avg_healthy = plt.imread(f"outputs/{version}/avg_var_Healthy.png")
+      avg_healthy = plt.imread(f"outputs/{version}/avg_var_healthy.png")
 
       st.warning(
         f"* We notice the average and variability images did not show "
         f"patterns where we could intuitively differentiate one from another. " 
         f"However, a small difference in the colour pigment of the average images is seen for both labels.")
 
-      st.image(avg_p, caption='powdery mildew - Average and Variability')
-      st.image(avg_uninfected, caption='Healthy leaf - Average and Variability')
+      st.image(avg_infected, caption='powdery mildew - Average and Variability')
+      st.image(avg_healthy, caption='Healthy leaf - Average and Variability')
       st.write("---")
 
     if st.checkbox("Differences between average infected and average healthy leaf"):
