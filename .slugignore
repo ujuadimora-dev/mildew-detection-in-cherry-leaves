@@ -10,4 +10,5 @@ inputs/cherry_dataset/cherry-leaves/test/healthy/*
 inputs/cherry_dataset/cherry-leaves/test/powdery_mildew/*
 inputs/cherry_dataset/cherry-leaves/train/healthy/*
 inputs/cherry_dataset/cherry-leaves/train/powdery_mildew/*
+
 attechment/*

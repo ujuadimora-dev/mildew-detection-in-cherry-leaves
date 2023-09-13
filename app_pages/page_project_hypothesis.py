@@ -40,12 +40,14 @@ def page_project_hypothesis_body():
     )
     
     # file paths to your images within the "streamlit_images" folder
-    aculate_plt_path = "/workspaces/mildew-detection-in-cherry-leaves/streamlit_images/aculate_plt.png"
-    loss_plt_path = "/workspaces/mildew-detection-in-cherry-leaves/streamlit_images/loss_plt.png"
+    aculate_plt_path = "/workspaces/mildew-detection-in-cherry-leaves/stream_images/acuulat_plt.png"
+    loss_plt_path = "/workspaces/mildew-detection-in-cherry-leaves/stream_images/plt.png"
 
-# Display the images using st.image()
+    # Display the images using st.image()
     st.image(aculate_plt_path, caption="Aculate Plot")
     st.image(loss_plt_path, caption="Loss Plot")
+
+    
 
     
 

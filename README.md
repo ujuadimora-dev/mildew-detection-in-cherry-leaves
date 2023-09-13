@@ -1,6 +1,6 @@
 
 
-![Banner](streamlit_images/readme_images/cherry_imag.png)
+![Banner](readme_images/cherry_imag.png)
 
 
 ## Table of Contents
@@ -72,16 +72,16 @@ Mean and std is calculated
 
 An Image Montage shows the evident difference between a healthy leaf and an infected one. 
 
-![montage_healthy](streamlit_images/health_cherry.PNG)
-![montage_infected](streamlit_images/powdery_mildew_image.png)
+![montage_healthy](readme_images/health_cherry.png)
+![montage_infected](readme_images/powdery_mildew_image.png)
 
 Difference between average and variability images shows that affected leaves present more white stipes on the center.
 
-![average variability between samples](streamlit_images/ave_iamge.PNG)
+![average variability between samples](readme_images/ave_iamge.png)
 
 While image difference between average infected and average infected leaves shows no intuitive difference. 
 
-![average variability between samples](streamlit_images/diff_ave_images.PNG)
+![average variability between samples](readme_images/diff_ave_images.png)
 
 **3. Conclusion**
 
@@ -315,6 +315,7 @@ In heroku app. This prject was made to run in Stack 22 and with the new version 
 
 ### Fixed Bug
 So this was later fixed by using this command [heroku login -i] (https://stackoverflow.com/questions/63363085/ip-address-mismatch-on-signing-into-heroku-cli)to set the Heroku app to accespt the project on Stack 20
+
 
 
 ## Deployment
