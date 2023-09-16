@@ -29,7 +29,7 @@ The dataset contains +4000 featured photos of single cherry leaves against a neu
 We were requested by our client Farmy & Foods a company in the agricultural sector to develop a Machine Learning based system to detect instantly whether a certain cherry tree presents powdery mildew thus needs to be treated with a fungicide. 
 The requested system should be capable of detecting instantly, using a tree leaf image, whether it is healthy or infected. 
 The system was requested by the Farmy & Food company to automate the detection process conducted manually thus far. The company has thousands of cherry trees, located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.
-Link to the wiki section of this repo for the full [business interview](https://github.com/ujuadimora-dev/mildew-detection-in-cherry-leaves/wiki/Business-Review-of-Farmy-&-Foods-Company). 
+Link to the wiki section of this repo for the full [business interview](<https://github.com/ujuadimora-dev/mildew-detection-in-cherry-leaves/wiki/Business-Review-and-undertsnding-of-Farmy-&-Foods-Company#interview-with-the-it-management-of-farmy--food-company>)
 
 Summarizing:
 
@@ -44,8 +44,6 @@ Summarizing:
 
 2. **Hypothesis**: The EarlyStopping callback is used to monitor the validation loss during training. 
    - __How to validate__: If the validation loss does not improve for three consecutive epochs the trainin will stopped early to prevent overfitting and save time"<br/>
-
-
 
 ### Hypothesis 1
 * Infected leaves have clear marks differentiating them from the healthy leaves.
@@ -89,9 +87,6 @@ The model was able to detect such differences and learn how to differentiate and
 A good model trains its ability to predict classes on a batch of data without adhering too closely to that set of data.
 In this way the model is able to generalize and predict future observation reliably because it didn't 'memorize' the relationships between features and labels as seen in the training dataset but the general pattern from feature to labels.
 
-
-### Hypothesis 2
-For further details the results mentioned in this section can be downloaded here [ hypothesis](attechment/Modeling&Evalaution.ipynb) 
 
 **1. Introduction**
 
@@ -178,9 +173,8 @@ Using too many neurons in the hidden layers can result in several problems. Firs
 
 ### Model Compilation
 
-- **Loss**: A loss function is a function that compares the target and predicted output values; measures how well the neural network models the training data. When training, we aim to minimize this loss between the predicted and target outputs. `categorical_crossentropy` (also called Softmax Loss. It is a Softmax activation plus a Cross-Entropy loss) was used since the problem has been treated as multiclass classification. See [Hypothesis 2](#Hypothesis-2) for more details.
-
-- **Optimizer**: An optimizer is a function or algorithm that is created and used for neural network attribute modification (i.e., weights, learning rates) for the purpose of speeding up convergence while minimizing loss and maximizing accuracy. `adam` was chosen going through the trial and error phase.
+- **Loss**: A loss function is a function that compares the target and predicted output values; measures how well the neural network models the training data. When training, we aim to minimize this loss between the predicted and target outputs. 
+- **Optimizer**: An optimizer is a function or algorithm that is created and used for neural network attribute modification (i.e., weights, learning rates) for the purpose of speeding up convergence while minimizing loss and maximizing accuracy. 
 
 - **Metrics**: `accuracy` Calculates how often predictions equal labels. This metric creates two local variables, total and count that are used to compute the frequency with which `y_pred` matches `y_true`.  
 
@@ -228,7 +222,7 @@ The User Story were addressed implementing the following tasks which are present
   - The dashboard will display the uploaded image and its relative prediction statement, indicating whether the leaf is infected or not with powdery mildew and the probability associated with this statement.
 
 ### Business Requirement 3: Report
->The client is interested in obtaining a prediction report of the examined leaves. 
+>The client is interested in obtaining a prediction report on the examined leaves. 
 
 In terms of **User Story**:
 - As a client I want to obtain a report from the ML predictions on new leaves.  
@@ -238,7 +232,8 @@ The User Story were addressed implementing the following tasks which are present
 
 ## ML Business Case
 
-**Visit the Project Handbook on [Wiki](https://github.com/ujuadimora-dev/mildew-detection-in-cherry-leaves/wiki/Handbook-for-Cherry_leaf-Mildew-detector)**
+**Visit the Project Handbook on [Wiki](https://github.com/ujuadimora-dev/mildew-detection-in-cherry-leaves/wiki/Handbook-for-Cherry_leaf-Mildew-detector)
+
 
 ### Powdery Mildew classificator
 - We want an ML model to predict if a leaf is infected with powdery mildew or not, based on the image database provided by the Farmy & Foods company. The problem can be understood as supervised learning, a two/multi-class, single-label, classification model.
@@ -249,7 +244,7 @@ The User Story were addressed implementing the following tasks which are present
 - Heuristics: The current detection method is based on a manual inspection. A farmer spends around 30 minutes in each tree, taking a few samples of tree leaves and verifying visually if the leaf tree is healthy or has powdery mildew. Visual criteria is slow and it leaves room to produce inaccurate diagnostics due to human error. 
 - The training data to fit the model come from the leaves database provided by Farmy & Foody company and uploaded on Kaggle. This dataset contains +4000 images of cherry leaves. 
 
-![leave_detector](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com/) click on the leave dectector Tab and upload the leave you to detect
+[leave_detector](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com/) click on the leave dectector Tab and upload the leave you to detect
 
 ## Dashboard Design (Streamlit App User Interface)
 
@@ -301,21 +296,18 @@ CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is a
 
 **Source**: [IBM - crisp overview](https://www.ibm.com/docs/it/spss-modeler/saas?topic=dm-crisp-help-overview)
 
-A kanban board is an agile project management tool designed to help visualize work, limit work-in-progress, and maximize efficiency (or flow). It can help both agile and DevOps teams establish order in their daily work. Kanban boards use cards, columns, and continuous improvement to help technology and service teams commit to the right amount of work, and get it done!
+Github has agile project  tool to help visualize work, limit work-in-progress, and maximize efficiency (or flow). It can help both agile and DevOps teams establish order in their daily work. It  use cards, columns, and continuous improvement to help technology and service teams commit to the right amount of work, and get it done!
 
 **Source**: [Github - Project boards](https://unito.io/blog/github-projects-agile/#:~:text=Use%20GitHub's%20agile%20projects,-Since%20October%202016&text=GitHub%20Projects%20let%20you%20have,any%20repository%2C%20like%20this%20one.)
 
 
-The CRISP-DM process is divided in [sprints](hhttps://github.com/users/ujuadimora-dev/projects/7/views/1/). Each sprint has Epics based on each CRISP-DM task which were subsequently split into task. Each task can be either in the *To Do*, *In progress*, *Review* status as the workflow proceeds and contains in-depth details.
-
-
+The Project Boarf for this project [Cherry_board](https://github.com/users/ujuadimora-dev/projects/8/views/6). Each sprint has  Each task can be either in the *To Do*, *In progress*, *Review* status as the workflow proceeds and contains in-depth details.
 
 ## Bugs
 In heroku app. This prject was made to run in Stack 22 and with the new version of Python 3.11 . I made the changes accordingly. On delpyment to Heroku, I found that most of the dependences on the requirements.txt are old versions and of course the  the deployment fails,  i was doing trial  and errors, this made to spend some time on this project. Even at time, i removed all the version on the rquirments.txt Then another issues is the at the file is so large and then the deploment fails of course
 
 ### Fixed Bug
 So this was later fixed by using this command [heroku login -i] (https://stackoverflow.com/questions/63363085/ip-address-mismatch-on-signing-into-heroku-cli)to set the Heroku app to accespt the project on Stack 20
-
 
 
 ## Deployment

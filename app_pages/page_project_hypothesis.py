@@ -2,7 +2,6 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 
-
 def page_project_hypothesis_body():
     st.write("### Hypothesis 1 and validation")
 
@@ -14,7 +13,7 @@ def page_project_hypothesis_body():
         f"An Image Montage shows that typically a mildew leaves  has white_like subtance  on the surface."
     )
     st.write("To visualize a thorough investigation of infected and healthy leaves visit the Leaves Visualiser tab.")
-     
+
     st.warning(
         f"The model was able to detect such differences and learn how to differentiate and generalize in order to make accurate predictions."
         f" A good model trains its ability to predict classes on a batch of data without adhering too closely to that set of data."
@@ -22,8 +21,7 @@ def page_project_hypothesis_body():
         f" as seen in the training dataset but the general pattern from feature to labels. "
     )
 
-
-    st.write("### Hypotesis 2 and validation")
+    st.write("### Hypothesis 2 and validation")
 
     st.success(
         f" Here from tensorflow.keras.callbacks import EarlyStopping for the training of the Model. "
@@ -38,7 +36,7 @@ def page_project_hypothesis_body():
     st.warning(
         f"In this case the ```EarlyStopping``` function performed better. "
     )
-    
+
     # file paths to your images within the "streamlit_images" folder
     aculate_plt_path = "stream_images/acuulat_plt.png"
     loss_plt_path = "stream_images/plt.png"
@@ -46,10 +44,6 @@ def page_project_hypothesis_body():
     # Display the images using st.image()
     st.image(aculate_plt_path, caption="Aculate Plot")
     st.image(loss_plt_path, caption="Loss Plot")
-
-    
-
-    
 
     st.write(
         f"For additional information, please visit and **read** the "
