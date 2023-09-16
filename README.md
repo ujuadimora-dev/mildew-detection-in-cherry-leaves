@@ -8,8 +8,7 @@
 2. [Business Requirements](#business-requirements)
 3. [Hypothesis and validation](#hypothesis-and-validation)
 4. [Rationale for the model](#the-rationale-for-the-model)
-5. [Trial and error](#trial-and-error)
-6. [Implementation of the Business Requirements](#the-rationale-to-map-the-business-requirements-to-the-data-visualizations-and-ml-tasks)
+5. [Implementation of the Business Requirements](#the-rationale-to-map-the-business-requirements-to-the-data-visualizations-and-ml-tasks)
 7. [ML Business case](#ml-business-case)
 8. [Dashboard design](#dashboard-design-streamlit-app-user-interface)
 9. [CRISP DM Process](#the-process-of-cross-industry-standard-process-for-data-mining)
@@ -179,7 +178,7 @@ Using too many neurons in the hidden layers can result in several problems. Firs
 - **Metrics**: `accuracy` Calculates how often predictions equal labels. This metric creates two local variables, total and count that are used to compute the frequency with which `y_pred` matches `y_true`.  
 
 **Source**: 
-- [7 tips to choose the best optimizer](https://towardsdatascience.com/7-tips-to-choose-the-best-optimizer-47bb9c1219e) by [Davide Giordano](https://medium.com/@davidegiordano)
+- [7 tips to choose the best optimizer](https://towardsdatascience.com/7-tips-to-choose-the-best-optimizer-47bb9c1219e) by 
 - [Impact of Optimizers in Image Classifiers](https://towardsai.net/p/l/impact-of-optimizers-in-image-classifiers)
 - [Keras Accuracy Metrics](https://keras.io/api/metrics/accuracy_metrics/#:~:text=metrics.,with%20which%20y_pred%20matches%20y_true%20.)
 
@@ -300,8 +299,7 @@ Github has agile project  tool to help visualize work, limit work-in-progress, a
 
 **Source**: [Github - Project boards](https://unito.io/blog/github-projects-agile/#:~:text=Use%20GitHub's%20agile%20projects,-Since%20October%202016&text=GitHub%20Projects%20let%20you%20have,any%20repository%2C%20like%20this%20one.)
 
-
-The Project Boarf for this project [Cherry_board](https://github.com/users/ujuadimora-dev/projects/8/views/6). Each sprint has  Each task can be either in the *To Do*, *In progress*, *Review* status as the workflow proceeds and contains in-depth details.
+The Project Board for this project [Cherry_board](https://github.com/users/ujuadimora-dev/projects/8/views/6). 
 
 ## Bugs
 In heroku app. This prject was made to run in Stack 22 and with the new version of Python 3.11 . I made the changes accordingly. On delpyment to Heroku, I found that most of the dependences on the requirements.txt are old versions and of course the  the deployment fails,  i was doing trial  and errors, this made to spend some time on this project. Even at time, i removed all the version on the rquirments.txt Then another issues is the at the file is so large and then the deploment fails of course
@@ -325,8 +323,7 @@ The steps needed to deploy this projects are as follows:
 6. Select the branch you want to deploy, then click Deploy Branch.
 7. Click to "Enable Automatic Deploys " or chose to "Deploy Branch" from the _Manual Deploy_ section. 
 8. Wait for the logs to run while the dependencies are installed and the app is being built.
-9. The mock terminal is then ready and accessible from a link similar to `https://your-projects-name.herokuapp.com/`
-10. If the slug size is too large then add large files not required for the app to the `.slugignore` file.
+9.  If the slug size is too large then add large files not required for the app to the `.slugignore` file.
    
 ### Forking the Repository
 
@@ -361,7 +358,7 @@ __You can find the live link to the site here: [Cherry Powdery Mildew Detector](
 - [Jupiter Notebook](https://jupyter.org/) to edit code for this project
 - [Kaggle](https://www.kaggle.com/) to download datasets for this project
 - [GitHub](https://github.com/): To store the project code after being pushed from Gitpod.
-- [Codeanywhere workspace](https://app.codeanywhere.com/) Gitpod Dashboard was used to write the code and its terminal to 'commit' to GitHub and 'push' to GitHub Pages.
+- [Codeanywhere workspace](https://app.codeanywhere.com/) Codeanywhere Dashboard was used to write the code and its terminal to 'commit' to GitHub and 'push' to GitHub Pages.
 
 ### Languages
 - [Python](https://www.python.org/)
@@ -376,10 +373,15 @@ __You can find the live link to the site here: [Cherry Powdery Mildew Detector](
 - pandas 1.1.2          used for creating/saving as dataframe
 - matplotlib 3.3.1      used for plotting the sets' distribution
 - keras 2.6.0           used for setting model's hyperparamters
-- plotly 5.12.0         used for plotting the model's learning curve 
+- plotly 14.12.0         used for plotting the model's learning curve 
 - seaborn 0.11.0        used for plotting the model's confusion matrix
 - streamlit             used for creating and sharing this project's interface
+- protobuf==3.20        tools to automatically generate source code.
+- altair<5              used  to ensure that a specific version of a library 
+                        or package is installed
 </pre>
+
+
 
 ## Credits
 
