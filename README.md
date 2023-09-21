@@ -253,9 +253,9 @@ The User Story were addressed implementing the following tasks which are present
         - Powdery mildew is a parasitic fungal disease caused by Podosphaera clandestina in cherry trees. When the fungus begins to take over the plants, a layer of mildew made up of many spores forms across the top of the leaves. The disease is particularly severe on new growth, can slow down the growth of the plant and can infect fruit as well, causing direct crop loss.
         - Visual criteria used to detect infected leaves are light-green, circular lesion on either leaf surface and later on a subtle white cotton-like growth develops in the infected area on either leaf surface and on the fruits thus reducing yield and quality."
 - Project Dataset
-The available dataset provided by Farmy & Foody contains 4208 featured photos of single cherry leaves against a neutral background. The leaves are either healthy or infested by cherry powdery mildew.
+The available dataset provided by Farmy & Foody contains 4000+ featured photos of single cherry leaves against a neutral background. The leaves are either healthy or infested by cherry powdery mildew.
 - Business requirements:
-    1. The client is interested to have a study to visually differentiate between a parasite-contained and uninfected leaf.
+    1. The client is interested to have a study to visually differentiate between a parasite-contained and Healthy leaf.
     2. The client is interested in telling whether a given leaf contains a powdery mildew parasite or not.
     3. The client is interested in obtaining a prediction report of the examined leaves. 
 - Link to this Readme.md file for additional information about the project. 
@@ -282,8 +282,8 @@ It will answer business requirement #1
 ### Page 5: ML Performance Metrics
 - Label Frequencies for Train, Validation and Test Sets
 - Dataset percentage distribution among the three sets
-- Model performance - ROC curve
-- Model accuracy - Confusion matrix
+- Model performance 
+- Model accuracy 
 - Model History - Accuracy and Losses of LSTM Model
 - Model evaluation result on Test set
 
@@ -302,10 +302,10 @@ Github has agile project  tool to help visualize work, limit work-in-progress, a
 The Project Board for this project [Cherry_board](https://github.com/users/ujuadimora-dev/projects/8/views/6). 
 
 ## Bugs
-In heroku app. This prject was made to run in Stack 22 and with the new version of Python 3.11 . I made the changes accordingly. On delpyment to Heroku, I found that most of the dependences on the requirements.txt are old versions and of course the  the deployment fails,  i was doing trial  and errors, this made to spend some time on this project. Even at time, i removed all the version on the rquirments.txt Then another issues is the at the file is so large and then the deploment fails of course
+In heroku app,this project suppose to run in Stack 22 and with the new version of Python 3.11 , I made some changes accordingly. On delpyment to Heroku, I found that most of the dependences on the requirements.txt are old versions and of course the  the deployment fails,  i was doing trial  and errors, this made me to spend some time on this project. Even at time, i removed all the versions on the requirements.txt Then another issues was that  file was so large and then the deploment fails of course.
 
 ### Fixed Bug
-So this was later fixed by using this command [heroku login -i] (https://stackoverflow.com/questions/63363085/ip-address-mismatch-on-signing-into-heroku-cli)to set the Heroku app to accespt the project on Stack 20
+So this was later fixed by using this command [heroku login -i] (https://stackoverflow.com/questions/63363085/ip-address-mismatch-on-signing-into-heroku-cli)to set the Heroku app to accept the project on Stack 20
 
 
 ## Deployment
@@ -400,7 +400,10 @@ This section lists the sources used to build this project.
 
 
 ### Acknowledgements
+ 
 
-Thanks to [Code Institute](https://codeinstitute.net/global/) 
+- Thanks to [Code Institute and the Team ](https://codeinstitute.net/global/) 
+- Thanks also my two mentors(Daisy Mc Girr
+(mcgirr.daisy@gmail.com) and Rohit Sharma(rohit0286@gmail.com)
 
 ### Deployed version at [cherry-powdery-mildew-detector.herokuapp.com](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com/)
