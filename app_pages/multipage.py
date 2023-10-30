@@ -10,7 +10,7 @@ class MultiPage:
 
         st.set_page_config(
             page_title=self.app_name,
-            page_icon="🖥️")  # You may add an icon, to personalise your App
+            page_icon="🖥️")
         # check links below for additional icons reference
         # https://docs.streamlit.io/en/stable/api.html#streamlit.set_page_config
         # https://twemoji.maxcdn.com/2/test/preview.html
@@ -20,5 +20,6 @@ class MultiPage:
 
     def run(self):
         st.title(self.app_name)
-        page = st.sidebar.radio('Menu', self.pages, format_func=lambda page: page['title'])
+        page = st.sidebar.radio(
+            'Menu', self.pages, format_func=lambda page: page['title'])
         page['function']()
