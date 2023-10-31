@@ -1,6 +1,8 @@
 
 
-![Banner](readme_images/cherry_imag.png)
+
+
+![moch_site](readme_images/moch_wsite.png)
 
 
 ## Table of Contents
@@ -305,8 +307,11 @@ The Project Board for this project [Cherry_board](https://github.com/users/ujuad
 In heroku app,this project suppose to run in Stack 22 and with the new version of Python 3.11 , I made some changes accordingly. On delpyment to Heroku, I found that most of the dependences on the requirements.txt are old versions and of course the  the deployment fails,  i was doing trial  and errors, this made me to spend some time on this project. Even at time, i removed all the versions on the requirements.txt Then another issues was that  file was so large and then the deploment fails of course.
 
 ### Fixed Bug
-So this was later fixed by using this command [heroku login -i] (https://stackoverflow.com/questions/63363085/ip-address-mismatch-on-signing-into-heroku-cli)to set the Heroku app to accept the project on Stack 20
-
+So this was later fixed by using this command [heroku login  -i] (<https://stackoverflow.com/questions/63363085/ip-address-mismatch-on-signing-into-heroku-cli>)
+ Then:
+heroku stack:set heroku-20 -a <app name>
+Replace <app name> with your app name for Heroku. 
+This will set the Heroku app to accept the project on Stack 20
 
 ## Deployment
 The project is coded and hosted on GitHub and deployed with [Heroku](https://www.heroku.com/). 
