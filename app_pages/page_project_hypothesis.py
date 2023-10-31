@@ -31,7 +31,7 @@ def page_project_hypothesis_body():
         f" If the validation loss does not improve for three consecutive epochs the training will"
         f"stopped early to prevent overfitting and save time"
         f" The learning curve shows the accuracy and error rate on the training and validation dataset while the model is training.\n\n"
-        f"The learning model stop after the 6th Epochs"
+        f"The learning model stop after the 14th Epochs"
     )
     st.warning(
         f"In this case the ```EarlyStopping``` function performed better. "

@@ -129,7 +129,7 @@ The same hyperparameters were set for both examples.
  
  - Loss/Accuracy of LSTM model train
  
-   [check the site and click on the ML performance Metric](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com/) 
+   [check the site and click on the ML performance Metric](https://mildew-leaf-detector-8fe4aa285505.herokuapp.com/)
  - Loss/Accuracy of LSTM model trained
 
 
@@ -203,7 +203,7 @@ In terms of **User Story**:
 
 The User Story were addressed implementing the following tasks which are presented in the streamlit dashboard and calculated in the Data Visualization notebook:
 
--  A Streamlit-based dashboard with an easy navigation side bar (see [Dashboard design](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com/) for a detailed presentation)
+- A Streamlit-based dashboard with an easy navigation side bar (see [Dashboard design](https://mildew-leaf-detector-8fe4aa285505.herokuapp.com/) for a detailed presentation)
 -  The difference between an average infected leaf and an average healthy leaf.
 -  The "mean" and "standard deviation" images for healthy and powdery mildew infected leaves 
 -  Image montage for either infected or healthy leaves.
@@ -216,7 +216,7 @@ In terms of **User Story**:
 
 The User Story were addressed implementing the following tasks which are presented in the streamlit dashboard and calculated in the Data Visualization notebook:
 
-- The rationale for the ML model deployed to answer the request is presented [here](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com/)
+- The rationale for the ML model deployed to answer the request is presented [here](https://mildew-leaf-detector-8fe4aa285505.herokuapp.com/)
 - The client can upload cherry leaves images to the dashboard through an *uploader widget* to get an instant evaluation. Here are the key features of this functionality:
   - Images have to be uploaded in `.png` format. 
   - It's possible to upload multiple images at once up to 200MB. 
@@ -354,7 +354,7 @@ The steps needed to deploy this projects are as follows:
     - Press Enter, and wait for the repository to be created.
     - Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) for a more detailed explanation. 
 
-__You can find the live link to the site here: [Cherry Powdery Mildew Detector](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com/)__
+__You can find the live link to the site here: [Cherry Powdery Mildew Detector](https://mildew-leaf-detector-8fe4aa285505.herokuapp.com/)__
 
 ## Technologies used
 
@@ -411,4 +411,4 @@ This section lists the sources used to build this project.
 - Thanks also my two mentors(Daisy Mc Girr
 (mcgirr.daisy@gmail.com) and Rohit Sharma(rohit0286@gmail.com)
 
-### Deployed version at [cherry-powdery-mildew-detector.herokuapp.com](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com/)
+### Deployed version at [cherry-powdery-mildew-detector.herokuapp.com](https://mildew-leaf-detector-8fe4aa285505.herokuapp.com/)
