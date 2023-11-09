@@ -4,10 +4,13 @@
 Mildew-detection-in-cherry-leaves is one of the best automatic mildew detector that detect if cherry leaf has a fungal infection or not in Germany European . This can be use in industries like Agro industries, Food and care industries etc. The app is  designed to use dashborad  for easy use. The app has five(5) main sections: Quick Project Summary section, this tell the user what the app is all about. Section for leaves Visualizer, show the user the infected leaves and healthy leaf. Mildew Detector section, this is where  user can detect if a cherry leaf is infected or not. Project Hypothesis  section , states the  predictions about what was research and answer  the question and ML Performance Metric section  measure the behavior, activities, and performance of the business .requirment.   [live here](https://mildew-leaf-detector-8fe4aa285505.herokuapp.com/)
 
 
+
 ![moch_site](readme_images/feature_pages/moch_site.PNG)
 
 
 ## Table of Contents
+
+1. [App Features](#Testing-features-of-the-App)
 1. [Dataset Content](#dataset-content)
 2. [Business Requirements](#business-requirements)
 3. [Hypothesis and validation](#hypothesis-and-validation)
