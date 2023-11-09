@@ -1,8 +1,10 @@
 
+## mildew-detection-in-cherry-leaves
+
+Mildew-detection-in-cherry-leaves is one of the best automatic mildew detector that detect if cherry leaf has a fungal infection or not in Germany European . This can be use in industries like Agro industries, Food and care industries etc. The app is  designed to use dashborad  for easy use. The app has five(5) main sections: Quick Project Summary section, this tell the user what the app is all about. Section for leaves Visualizer, show the user the infected leaves and healthy leaf. Mildew Detector section, this is where  user can detect if a cherry leaf is infected or not. Project Hypothesis  section , states the  predictions about what was research and answer  the question and ML Performance Metric section  measure the behavior, activities, and performance of the business .requirment.   [live here](https://mildew-leaf-detector-8fe4aa285505.herokuapp.com/)
 
 
-
-![moch_site](readme_images/moch_wsite.png)
+![moch_site](readme_images/feature_pages/moch_site.PNG)
 
 
 ## Table of Contents
@@ -19,7 +21,50 @@
 12. [Technologies used](#technologies-used)
 13. [Credits](#credits)
 
-### Deployed version at [cherry-leaves-powdery-mildew-detector-app.herokuapp.com](https://mildew-leaves-detector-1a60bad7c5a0.herokuapp.com)
+
+## Testing /features of the App
+###  Landing/ Summary page
+![landing _summary page](readme_images/feature_pages/land_page.png)
+* The above image is the landing page of te Cherry leaf dectecor .
+* It summarises what the site is all about.
+* Tt also shows the (5)five sections of the app site.
+
+### Leave Visualizer page
+![Leaf_visulizer](readme_images/feature_pages/leave_visaula_page.png)
+* This visibly shows and differentiates  unhealthy leaf from an Healthy leaf.
+* This show 3 section for the leaf visualizer:
+* This features as been tested by clicking on the each of the button and all working as required
+* They are: 
+* 1: 
+![average_different](readme_images/feature_pages/ave_different_sect.png)
+* 2:
+![average_infected_healthy](readme_images/feature_pages/diff_infeted_health.png)
+* 3a: The healthy  cherry Leaves
+![montage_healthy](readme_images/feature_pages/mantage_health.png)
+* 3b: Cherry Leaves infected with powdery mildew 
+![montage_infected](readme_images/feature_pages/montage_infected.png)
+
+### Miidew Detection page
+* There are two aspect: Testing the cherry leaf either healhy or mildew infected
+* This features as been tested by clicking on the each of the button and all working as required.
+* Download( either from cloud or your  local drive) the  cherry leaf to test.
+* Then the report will show either the leaf is healthy or infected with mildew.
+* The report can be downloaded in form of Excel sheet.
+  
+* Heathy  detected:
+![leaf_detector_helthy](readme_images/feature_pages/dectec_health_leaf.png)
+
+* Mildew detected
+![Leaf_detector_infected](readme_images/feature_pages/detect_infected_leave.png)
+
+### Project Hypothese page
+* This states the  predictions about what was research and answer  the question
+![Hypothese_page](readme_images/feature_pages/hypothese_page.png)
+
+### ML Performance Matrics page
+* This  measure the behavior, activities, and performance of the business requirment.
+![Ml_performace metrix_page](readme_images/feature_pages/performance_page.png)
+
 
 ## Dataset Content
 
@@ -302,6 +347,12 @@ Github has agile project  tool to help visualize work, limit work-in-progress, a
 **Source**: [Github - Project boards](https://unito.io/blog/github-projects-agile/#:~:text=Use%20GitHub's%20agile%20projects,-Since%20October%202016&text=GitHub%20Projects%20let%20you%20have,any%20repository%2C%20like%20this%20one.)
 
 The Project Board for this project [Cherry_board](https://github.com/users/ujuadimora-dev/projects/8/views/6). 
+
+## Project Board
+![project_board](readme_images/feature_pages/project_board.png)
+![project_board1](readme_images/feature_pages/project_board1.png)
+
+
 
 ## Bugs
 In heroku app,this project suppose to run in Stack 22 and with the new version of Python 3.11 , I made some changes accordingly. On delpyment to Heroku, I found that most of the dependences on the requirements.txt are old versions and of course the  the deployment fails,  i was doing trial  and errors, this made me to spend some time on this project. Even at time, i removed all the versions on the requirements.txt Then another issues was that  file was so large and then the deploment fails of course.

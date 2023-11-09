@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def page_project_hypothesis_body():
+    st.write("### Project Hypothesis")
     st.write("### Hypothesis 1 and validation")
 
     st.success(

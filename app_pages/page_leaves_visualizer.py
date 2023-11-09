@@ -11,10 +11,10 @@ import random
 
 
 def page_leaves_visualizer_body():
-    st.write("### leaves Visualizer")
+    st.write("### Leaves Visualizer")
     st.info(
         f"* The client is interested in having a study that visually "
-        f"differentiates a unhealthy leaf from an Healthy leaf.")
+        f"differentiates Powdery mildew infected cherry leaf from a Healthy one.")
 
     version = 'v1'
     if st.checkbox("Difference between average and variability image"):

@@ -11,6 +11,7 @@ from src.machine_learning.predictive_analysis import (
                                                     )
 
 def page_mildew_detector_body():
+    st.write("### Mildew Detection")
     st.info(
         f"* The client is interested in telling whether a given leaf contains a powdery mildew"
         f"or not."
